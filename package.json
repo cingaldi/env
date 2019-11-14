@@ -1,0 +1,28 @@
+{
+  "name": "@mconnect/env",
+  "version": "0.0.1",
+  "description": "Manage Environment Vairables like a bomber",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*spec.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cingaldi/env.git"
+  },
+  "keywords": [
+    "Environment",
+    "Variables"
+  ],
+  "author": "Carmine Ingaldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cingaldi/env/issues"
+  },
+  "homepage": "https://github.com/cingaldi/env#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
+  }
+}
